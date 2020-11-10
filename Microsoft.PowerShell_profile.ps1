@@ -5,7 +5,6 @@ Remove-PSReadlineKeyHandler 'Ctrl+r'
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module PSFzf
-Import-Module PoShFuck
 
 # Set Theme
 Set-Theme Paradox
