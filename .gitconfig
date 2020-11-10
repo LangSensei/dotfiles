@@ -1,0 +1,13 @@
+[alias]
+	p = pull
+	ps = push
+	cm = commit
+	co = checkout
+	st = status
+	br = branch
+	pop = stash pop
+	cob = checkout -b
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[user]
+	email = lang.chlorine@gmail.com
+	name = LangLangSAMA
