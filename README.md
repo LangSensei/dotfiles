@@ -9,9 +9,9 @@
 
 ### Tab自动补全
 
-首先，`notepad $PROFILE`打开`PowerShell`自定义`profile`文件
+首先，在`PowerShell`输入`notepad $PROFILE`打开自定义`profile`文件
 
-输入下面一行代码
+添加
 
 ```sh
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
