@@ -19,7 +19,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 ### 自定义方程LSC，数列形式展示文件
 
-`$PROFILE中`添加
+`$PROFILE`中添加
 
 ```sh
 function lsc {
@@ -38,7 +38,7 @@ Set-ExecutionPolicy RemoteSigned
 iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/mattparkes/PoShFuck/master/Install-TheFucker.ps1'))
 ```
 
-打开`PROFILE`输入
+打开`$PROFILE`输入
 
 ```sh
 
@@ -60,13 +60,13 @@ choco install fzf
 Install-Module PSFzf
 ```
 
-Profile中禁用默认按键：
+`$PROFILE`中禁用默认按键：
 
 ```sh
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 ```
 
-Profile中启用PSFzf:
+`$PROFILE`中启用PSFzf:
 
 ```sh
 Import-Module PSFzf
