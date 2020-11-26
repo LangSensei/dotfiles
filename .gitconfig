@@ -9,5 +9,5 @@
 	cob = checkout -b
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [user]
-	email = lang.chlorine@gmail.com
+	email = lang_cl@outlook.com
 	name = LangLangSAMA
