@@ -7,6 +7,16 @@
 
 ## Windows Terminal
 
+### 安装Oh-my-posh
+
+安装指令
+
+```sh
+Install-Module posh-git
+
+Install-Module oh-my-posh
+```
+
 ### Tab自动补全
 
 首先，在`PowerShell`输入`notepad $PROFILE`打开自定义`profile`文件
