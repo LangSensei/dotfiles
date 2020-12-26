@@ -1,7 +1,7 @@
 [alias]
 	p = pull
 	ps = push
-	cm = commit
+	cm = commit -m
 	co = checkout
 	st = status
 	br = branch
@@ -10,4 +10,8 @@
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [user]
 	email = lang_cl@outlook.com
-	name = LangLangSAMA
+	name = Lang-Cheng
+[credential]
+	helper = manager-core
+[pull]
+	ff = only
