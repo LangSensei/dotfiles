@@ -22,7 +22,7 @@ Set-Alias -Name vscode -Value "C:\Users\langc\AppData\Local\Programs\Microsoft V
 # Customized Functions
 function lsc {
    Param ([int]$c = 5)
-   ls | Format-Wide -Column $c -Property Name
+   Get-ChildItem | Format-Wide -Column $c -Property Name
 }
 
 # System Variable
