@@ -25,6 +25,11 @@ function lsc {
    Get-ChildItem | Format-Wide -Column $c -Property Name
 }
 
+# Enable ctrl+space in vscode
+if ($env:TERM_PROGRAM -eq "vscode") {
+   Set-PSReadLineOption -EditMode Emacs
+}
+
 # System Variable
 # $env:SCOOP='C:\Applications'
 # [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
