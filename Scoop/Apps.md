@@ -1,9 +1,9 @@
 ```
-7zip
 aria2
+extras
+
+# Dev Tools
 bat
-cpu-z
-devdocs
 fzf
 gcc
 gdb
@@ -11,9 +11,15 @@ git
 neovim
 nvm
 psutils
+yarn
+
+
+# App Tools
+7zip
+cpu-z
+devdocs
 v2ray
 v2rayn
 vlc
 vscode
-yarn
 ```
