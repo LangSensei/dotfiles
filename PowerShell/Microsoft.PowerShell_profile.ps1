@@ -1,3 +1,8 @@
+# Enable ctrl+space in vscode
+if ($env:TERM_PROGRAM -eq "vscode") {
+   Set-PSReadLineOption -EditMode Emacs
+}
+
 # Disable default keys
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 
@@ -23,11 +28,6 @@ Set-Alias -Name vscode -Value "C:\Users\langc\AppData\Local\Programs\Microsoft V
 function lsc {
    Param ([int]$c = 5)
    Get-ChildItem | Format-Wide -Column $c -Property Name
-}
-
-# Enable ctrl+space in vscode
-if ($env:TERM_PROGRAM -eq "vscode") {
-   Set-PSReadLineOption -EditMode Emacs
 }
 
 # System Variable
