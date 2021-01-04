@@ -5,6 +5,7 @@ if ($env:TERM_PROGRAM -eq "vscode") {
 
 # Disable default keys
 Remove-PSReadlineKeyHandler 'Ctrl+r'
+Remove-PSReadlineKeyHandler 'Ctrl+t'
 
 # Import Modules
 Import-Module posh-git
