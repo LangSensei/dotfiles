@@ -1,7 +1,7 @@
 # Enable ctrl+space in vscode
 if ($env:TERM_PROGRAM -eq "vscode") {
-   Set-PSReadLineOption -EditMode Emacs
-}
+   Set-PSReadLineKeyHandler -Chord 'Ctrl+w' -Function BackwardKillWord
+ }
 
 # Disable default keys
 Remove-PSReadlineKeyHandler 'Ctrl+r'
