@@ -1,25 +1,28 @@
 ```
-aria2
 extras
+nerd-fonts
 
-# Dev Tools
+7zip
+aria2
 bat
+cpu-z
+Delugia-Nerd-Font-Complete
+devdocs
+discord
 fzf
-gcc
-gdb
 git
+go
+listen1desktop
 neovim
 nvm
+powertoys
+prime95
 psutils
-yarn
-
-
-# App Tools
-7zip
-cpu-z
-devdocs
+quicklook
+switchhosts
 v2ray
 v2rayn
 vlc
 vscode
+yarn
 ```
