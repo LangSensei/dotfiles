@@ -11,10 +11,9 @@ Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module PSFzf
-Import-Module PoShFuck
 
 # Set Theme
-Set-Theme Paradox
+Set-PoshPrompt -Theme PowerLine
 
 # Set MenuComplete
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
