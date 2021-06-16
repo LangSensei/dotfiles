@@ -1,11 +1,13 @@
 # Enable ctrl+space in vscode
 if ($env:TERM_PROGRAM -eq "vscode") {
    Set-PSReadLineKeyHandler -Chord 'Ctrl+w' -Function BackwardKillWord
- }
+}
 
-# Disable default keys
-Remove-PSReadlineKeyHandler 'Ctrl+r'
-Remove-PSReadlineKeyHandler 'Ctrl+t'
+# PSFzf
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
+
+# Auto Complete
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 # Import Modules
 Import-Module posh-git
@@ -13,16 +15,10 @@ Import-Module oh-my-posh
 Import-Module PSFzf
 
 # Set Theme
-Set-PoshPrompt -Theme PowerLine
-
-# Set MenuComplete
-Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+Set-PoshPrompt -Theme iterm2
 
 # Alias Command
 Set-Alias -Name n -Value nvim
-
-# Alias Software
-Set-Alias -Name vscode -Value "C:\Users\langc\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 
 # Customized Functions
 function lsc {
