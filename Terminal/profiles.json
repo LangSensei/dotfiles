@@ -1,20 +1,19 @@
 {
     "profiles": {
-        "list": [
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": true,
-                "name": "PowerShell",
-                "commandline": "powershell.exe",
-                "icon": "C:/Users/langc/OneDrive/Images/Image-Collection/icon.jpg",
-                "colorScheme": "Campbell",
-                "useAcrylic": true,
-                "acrylicOpacity": 0.8,
-                "fontFace": "Delugia Nerd Font",
-                "fontSize": 10,
-                "padding": "5, 5, 5, 5"
-            }
-        ]
+        "defaults": 
+        {
+            "acrylicOpacity": 0.80000000000000004,
+            "backgroundImage": "C:\\Users\\langc\\OneDrive\\Images\\Desktop\\dawn2_by_wlop.jpg",
+            "backgroundImageOpacity": 0.14999999999999999,
+            "colorScheme": "Campbell",
+            "cursorShape": "bar",
+            "fontFace": "Delugia Nerd Font",
+            "fontSize": 10,
+            "padding": "5, 5, 5, 5",
+            "startingDirectory": "%USERPROFILE%",
+            "suppressApplicationTitle": true,
+            "useAcrylic": true
+        },
     },
     "alwaysOnTop": false,
     "alwaysShowTabs": false,
