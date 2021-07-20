@@ -29,3 +29,18 @@ function lsc
 
    Get-ChildItem | Format-Wide -Column $c -Property Name
 }
+
+function view
+{
+   fzf --preview 'bat ./ --color=always --style=numbers --line-range=:500 {}'
+}
+
+function search
+{
+   Param (
+      [string]$filePath,
+      [string]$text
+   )
+
+   bat $filePath | Select-String $text
+}
