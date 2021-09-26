@@ -5,23 +5,17 @@
             "acrylicOpacity": 0.80000000000000004,
             "backgroundImage": "C:\\Users\\langc\\OneDrive\\Images\\Desktop\\dawn2_by_wlop.jpg",
             "backgroundImageOpacity": 0.14999999999999999,
-            "colorScheme": "Campbell",
-            "cursorShape": "bar",
-            "fontFace": "Delugia Nerd Font",
-            "fontSize": 10,
-            "padding": "5, 5, 5, 5",
-            "startingDirectory": "%USERPROFILE%",
+            "font": {
+                "face": "Delugia",
+                "size": 10
+            },
+            "padding": "5",
             "suppressApplicationTitle": true,
             "useAcrylic": true
         },
     },
-    "alwaysOnTop": false,
-    "alwaysShowTabs": false,
-    "copyFormatting": "none",
-    "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "experimental.rendering.forceFullRepaint": true,
-    "showTabsInTitlebar": true,
     "tabWidthMode": "compact",
     "actions": [
         {
