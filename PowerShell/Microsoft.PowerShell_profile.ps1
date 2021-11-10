@@ -18,10 +18,14 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # Alias Command
+Set-Alias -Name b -Value bat
 Set-Alias -Name n -Value nvim
+Set-Alias -Name l -Value List
+Set-Alias -Name s -Value Search
+Set-Alias -Name v -Value View
 
 # Customized Functions
-function lsc
+function List
 {
    Param (
       [int]$c = 5
@@ -30,12 +34,7 @@ function lsc
    Get-ChildItem | Format-Wide -Column $c -Property Name
 }
 
-function view
-{
-   fzf --preview 'bat ./ --color=always --style=numbers --line-range=:500 {}'
-}
-
-function search
+function Search
 {
    Param (
       [string]$filePath,
@@ -43,4 +42,9 @@ function search
    )
 
    bat $filePath | Select-String $text
+}
+
+function View
+{
+   fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'
 }
