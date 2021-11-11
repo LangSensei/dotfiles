@@ -15,8 +15,7 @@
     cm = commit -m
     co = checkout
     cob = checkout -b
-    s = status --short --branch
-    st = status
+    st = status --short --branch
     br = branch
     pop = stash pop
     undo = reset --soft HEAD~1
