@@ -1,6 +1,6 @@
 [user]
-    email = lang_cl@outlook.com
     name = Lang-Cheng
+    email = lang_cl@outlook.com
 [credential]
     helper = manager-core
 [core]
