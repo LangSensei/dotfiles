@@ -3,6 +3,9 @@
     name = Lang-Cheng
 [credential]
     helper = manager-core
+[core]
+    autocrlf = true
+    ignorecase = false
 [pull]
     ff = only
 [alias]
