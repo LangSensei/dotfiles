@@ -1,19 +1,18 @@
 ```
+packages:
 extras
 nerd-fonts
 
+apps:
 7zip
 aria2
 bat
 cpu-z
 Delugia-Nerd-Font-Complete
 devdocs
-discord
 fzf
 git
-go
 neovim
-nvm
 prime95
 switchhosts
 vlc
