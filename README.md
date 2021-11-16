@@ -1,1 +1,70 @@
 # Dotfiles
+This is the dotfiles I used on Windows.
+
+## Git
+Replace with your local file under ~/.gitconfig.
+
+Remeber to update "user part" with your personal information. Please for god's sake, don't use mine.
+
+## Scoop
+
+A powerful package/app manager on Windows, you can check the homepage for details. https://scoop.sh/
+
+Run the following commands in PowerShell:
+
+```
+1. Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+2. Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+```
+
+For overriding default installation location, you can run the command defined in "Scoop.ps1".
+
+Apps.md lists the useful applications I like, you can use it for reference.
+
+## PowerShell
+
+It beautifies your PowerShell, like a charm.
+
+Before using this, you need to satisfy the following prereqs.
+
+In PowerShell, use scoop to install required applications:
+
+```
+1. Install scoop as stated in section "Scope"
+2. scoop bucket add extras
+3. scoop bucket add nerd-fonts
+4. scoop install bat
+5. scoop install Delugia-Nerd-Font-Complete
+6. scoop install fzf
+7. scoop install neovim
+```
+
+In PowerShell, run the following commands to install PS modules:
+
+PoshGit: http://dahlbyk.github.io/posh-git/
+
+Oh-My-Posh: https://ohmyposh.dev/docs/pwsh
+
+PSFzf: https://github.com/kelleyma49/PSFzf
+
+```
+1. Install-Module posh-git
+2. Install-Module oh-my-posh
+3. Install-Module PSFzf
+```
+
+In PowerShell:
+
+```
+1. notepad $PROFILE
+2. Put everything defined in "Microsoft.PowerShell_profile.ps1" to your opened text editor
+3. Save
+```
+
+## Windows Terminal
+
+The unified and elegant terminal application which supports various Cmdlet tools and shells.
+
+https://docs.microsoft.com/en-us/windows/terminal/
+
+You can use my stylings and shortcuts defined in "profiles.json" as reference.
