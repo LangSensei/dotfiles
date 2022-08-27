@@ -1,10 +1,7 @@
 # Import Modules
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\iterm2.omp.json" | Invoke-Expression
 Import-Module posh-git
-Import-Module oh-my-posh
 Import-Module PSFzf
-
-# Set Theme
-Set-PoshPrompt -Theme iterm2
 
 # Auto Complete
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
