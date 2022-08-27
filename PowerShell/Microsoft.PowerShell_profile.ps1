@@ -1,5 +1,5 @@
 # Import Modules
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\iterm2.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\kushal.omp.json" | Invoke-Expression
 Import-Module posh-git
 Import-Module PSFzf
 
