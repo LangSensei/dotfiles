@@ -8,7 +8,7 @@
                 "face": "Delugia Mono",
                 "size": 10
             },
-            "opacity": 20,
+            "opacity": 80,
             "padding": "5",
             "suppressApplicationTitle": true,
             "useAcrylic": true
