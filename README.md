@@ -53,9 +53,10 @@ PSFzf: https://github.com/kelleyma49/PSFzf
 In PowerShell:
 
 ```
+1. New-Item -Path $PROFILE -Type File -Force
 1. notepad $PROFILE
-2. Put everything defined in "Microsoft.PowerShell_profile.ps1" to your opened text editor
-3. Save
+1. Put everything defined in "Microsoft.PowerShell_profile.ps1" to your opened text editor
+1. Save
 ```
 
 ## Windows Terminal
