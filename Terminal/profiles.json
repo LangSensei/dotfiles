@@ -3,7 +3,7 @@
         "defaults": 
         {
             "backgroundImage": "your_path_to_image",
-            "backgroundImageOpacity": 0.14999999999999999,
+            "backgroundImageOpacity": 0.20000000000000001,
             "font": {
                 "face": "Delugia Mono",
                 "size": 10
