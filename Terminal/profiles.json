@@ -2,13 +2,13 @@
     "profiles": {
         "defaults": 
         {
-            "acrylicOpacity": 0.80000000000000004,
             "backgroundImage": "your_path_to_image",
             "backgroundImageOpacity": 0.14999999999999999,
             "font": {
-                "face": "Delugia",
+                "face": "Delugia Mono",
                 "size": 10
             },
+            "opacity": 20,
             "padding": "5",
             "suppressApplicationTitle": true,
             "useAcrylic": true
