@@ -36,14 +36,14 @@
         {
             "command": {
                 "action": "splitPane",
-                "split": "horizontal"
+                "split": "down"
             },
             "keys": "alt+["
         },
         {
             "command": {
                 "action": "splitPane",
-                "split": "vertical"
+                "split": "right"
             },
             "keys": "alt+]"
         },
