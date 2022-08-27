@@ -31,27 +31,24 @@ In PowerShell, use scoop to install required applications:
 
 ```
 1. Install scoop as stated in section "Scope"
-2. scoop bucket add extras
-3. scoop bucket add nerd-fonts
-4. scoop install bat
-5. scoop install Delugia-Nerd-Font-Complete
-6. scoop install fzf
-7. scoop install neovim
+1. scoop bucket add extras
+1. scoop bucket add nerd-fonts
+1. scoop install bat
+1. scoop install Delugia-Nerd-Font-Complete
+1. scoop install fzf
+1. scoop install neovim
+1. scoop install posh-git
+1. scoop install oh-my-posh
+1. scoop install psfzf
 ```
 
 In PowerShell, run the following commands to install PS modules:
 
 PoshGit: http://dahlbyk.github.io/posh-git/
 
-Oh-My-Posh: https://ohmyposh.dev/docs/pwsh
+Oh-My-Posh: https://github.com/jandedobbeleer/oh-my-posh
 
 PSFzf: https://github.com/kelleyma49/PSFzf
-
-```
-1. Install-Module posh-git
-2. Install-Module oh-my-posh
-3. Install-Module PSFzf
-```
 
 In PowerShell:
 
