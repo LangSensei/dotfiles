@@ -42,8 +42,6 @@ In PowerShell, use scoop to install required applications:
 1. scoop install psfzf
 ```
 
-In PowerShell, run the following commands to install PS modules:
-
 PoshGit: http://dahlbyk.github.io/posh-git/
 
 Oh-My-Posh: https://github.com/jandedobbeleer/oh-my-posh
