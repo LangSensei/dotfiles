@@ -8,7 +8,7 @@ apps:
 aria2
 bat
 cpu-z
-Delugia-Nerd-Font-Complete
+CascadiaCode-NF
 devdocs
 fzf
 git
