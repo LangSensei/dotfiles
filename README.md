@@ -34,7 +34,7 @@ In PowerShell, use scoop to install required applications:
 1. scoop bucket add extras
 1. scoop bucket add nerd-fonts
 1. scoop install bat
-1. scoop install Delugia-Nerd-Font-Complete
+1. scoop install CascadiaCode-NF
 1. scoop install fzf
 1. scoop install neovim
 1. scoop install posh-git
