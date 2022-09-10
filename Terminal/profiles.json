@@ -5,7 +5,7 @@
             "backgroundImage": "your_path_to_image",
             "backgroundImageOpacity": 0.20000000000000001,
             "font": {
-                "face": "Delugia Mono",
+                "face": "CaskaydiaCove NF",
                 "size": 10
             },
             "opacity": 80,
